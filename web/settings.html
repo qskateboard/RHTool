@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+<head>
+
+  <script src="eel.js"></script>
+
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="google" content="notranslate" />
+    <link rel="icon" type="image/png" href="icon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
+    <link href="../assets/fonts/CenturyGothic.woff" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/black-dashboard.min.css?v=1.0.0" rel="stylesheet" />
+    <style>
+      body {
+        overflow:hidden;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        //font-family: 'CenturyGothic', Fallback, sans-serif;
+      }
+      .container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  <title>SpectatorTool</title>
+</head>
+
+<body onload="init()">
+  <br><br>
+  <div class="row">
+      <div class="col-md-1">
+          <ul class="nav nav-pills nav-pills-primary nav-pills-icons" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html" role="tab" style="background-color: #1e1e2f">
+                    <i class="tim-icons icon-double-left"></i>
+                </a>
+            </li>
+          </ul>
+      </div>
+          <div class="col-md-10 container">
+            <div class="card card-subcategories" style="height: 26rem;">
+              <div class="card-header">
+                <h4 class="card-title text-center mt-5">Settings</h4>
+                <br>
+              </div>
+              <div class="card-body">
+
+                  <!-- Discord Token -->
+                <div class="form-group">
+                  <label>Discord Token</label>
+                  <input type="text" id="discord_token" class="form-control" placeholder="mfa.mdXyBjMdGO1n2jQbsfrC52Ko-tbQhhaBAPCq6a2JegSgF2Vkij3s8svD-Op2B3AYDfE1h3XSoxFa2I-fXFjQ">
+                </div>
+                  <!-- Discord Token -->
+
+                  <!-- Телеграм -->
+                <div class="row">
+                      <div class="col-md-8 pr-md-1">
+                        <div class="form-group">
+                          <label>Telegram Token</label>
+                          <input type="text" id="telegram_token" class="form-control" placeholder="1432153128:AAsMxXlJse8ifeVu32bTfbhoNADf80_XiIc">
+                        </div>
+                      </div>
+                      <div class="col-md-4 pl-md-1">
+                        <div class="form-group">
+                          <label>Telegram ID</label>
+                          <input type="number" id="telegram_id" class="form-control" placeholder="1464601473">
+                        </div>
+                      </div>
+                </div>
+                <!-- Телеграм -->
+
+                <!-- ID сервера/канала -->
+                  <div class="row">
+                      <div class="col">
+                        <div class="form-group">
+                          <label>ID сервера</label>
+                          <input type="text" id="server" class="form-control" placeholder="692789503995150459">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Канал ролей</label>
+                          <input type="text" id="channel_roles" class="form-control" placeholder="839951254276014145">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Канал чата</label>
+                          <input type="text" id="channel_chat" class="form-control" placeholder="839951252200751124">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-group">
+                          <label>Канал торговли</label>
+                          <input type="text" id="channel_trade" class="form-control" placeholder="839951252200751129">
+                        </div>
+                      </div>
+                  </div>
+                  <!-- ID сервера/канала -->
+                  <br>
+                  <br>
+              </div>
+            </div>
+          </div>
+    <div class="col-md-1">
+    </div>
+  </div>
+
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="../assets/js/plugins/bootstrap-switch.js" type="text/javascript"></script>
+  <!-- Chartist JS -->
+  <!-- <script src="../assets/js/plugins/chartjs.min.js"></script> -->
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/black-dashboard.js?v=1.0.0" type="text/javascript"></script>
+  <script src="/js/settings.js"></script>
+</body>
+
+</html>

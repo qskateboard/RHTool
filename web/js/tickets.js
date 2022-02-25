@@ -1,0 +1,1 @@
+eel.change_rpc("Catching tickets")
