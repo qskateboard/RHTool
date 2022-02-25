@@ -193,7 +193,7 @@ def get_cfg(val):
 
 
 def check_prikol():
-    r = requests.get("https://vprikol.xyz/mon/16/3")
+    r = requests.get("https://api.vprikol.tech/online/16/3")
     if r.status_code == 500:
         return False
     return True
@@ -253,7 +253,7 @@ def get_messages():
 
 
 def validate_nickname(user):
-    url = "http://vprikol.xyz/mon/16/"
+    url = "http://api.vprikol.tech/online/16/"
     nick = user
     match = re.compile(" ?\[.{1,10}\] ?").findall(nick)
     if len(match) < 2 and get_cfg("only_form"):
@@ -286,7 +286,7 @@ def validate_nickname(user):
 
 
 def validate_nickname_v2(user):
-    url = "http://vprikol.xyz/mon/16/"
+    url = "http://api.vprikol.tech/online/16/"
     nick = user
     match = re.compile(" ?\[.{1,10}\] ?").findall(nick)
     fraction = str(match[0]).replace("[", "").replace("]", "").replace(" ", "").lower()
