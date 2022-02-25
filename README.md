@@ -1,4 +1,5 @@
 > RHTool
+
 **Moderator  assistant in the discord of such a project as Arizona Games. This bot works on the basis of Selenium, Requests and one API that no longer works :sad: Eel is used as a graphical interface**
 
 It is unlikely that this bot can already be used in the workforce, but it can be disassembled and studied. There are a lot of useful things in it. For example: 
