@@ -286,7 +286,7 @@ def validate_nickname(user):
 
 
 def validate_nickname_v2(user):
-    url = "http://api.vprikol.tech/online/16/"
+    url = "http://vprikol.xyz/mon/{}/".format(get_cfg("server"))
     nick = user
     match = re.compile(" ?\[.{1,10}\] ?").findall(nick)
     fraction = str(match[0]).replace("[", "").replace("]", "").replace(" ", "").lower()
