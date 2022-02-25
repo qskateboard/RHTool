@@ -14,8 +14,8 @@ It is unlikely that this bot can already be used in the workforce, but it can be
  8. And of course the bots themselves, who check the roles
 
 Old design:
-[old](https://i.imgur.com/brqQutX.png)
+![old](https://i.imgur.com/brqQutX.png)
 
 New design:
-[new design 1](https://i.imgur.com/xMaWk6v.png)
-[new design 2](https://i.imgur.com/NXKSXL3.png)
+![new design 1](https://i.imgur.com/xMaWk6v.png)
+![new design 2](https://i.imgur.com/NXKSXL3.png)
