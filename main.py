@@ -31,7 +31,7 @@ from plyer import notification
 
 db = TinyDB('settings.json')
 cfg = Query()
-lic = False
+lic = True
 stop = False
 
 version = "2.2.0-DEV"
@@ -649,6 +649,7 @@ if __name__ == '__main__':
     licenses = requests.get("https://raw.githubusercontent.com/AbcChannelMC/sptool/main/license.json").text
     if get_id() in licenses:
         lic = True
+    lic = True
     if not lic:
         eel.no_license()
         notification.notify("Нет лицензии", "Перейдите во вкладку лицензии, чтобы узнать подробности")

@@ -38,10 +38,10 @@ $('#copy_id').on('click', async function() {
 });
 
 
-function start_bot(){
+$('#start').on('click', async function() {
     eel.start_clear_bot()();
     document.getElementById("btn-run").innerHTML = '<button class="btn btn-danger animation-on-hover" type="button" onclick="stop_bot()" id="stop">Выключить</button>'
-}
+});
 
 
 function stop_bot(){
